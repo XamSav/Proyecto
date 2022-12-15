@@ -9,7 +9,7 @@
 }
 .tarjeta{
     background-color: white;
-    width: 100px;
+    width: 25%;
 }
 .tarjeta img{
     max-width: 200px;
@@ -17,10 +17,28 @@
 .tarjeta p{
     color: rgba(243,73,38,255);
 }
-#tarjetas{
-    display: block;    
+#Tarjetas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
 }
 .bloque{
+    margin-top: 10%;
+    margin-right: 20%;
     height: 100px;
-    width: 35%;
+    width: 100%;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.mitad{
+    width: 50%;
+}
+.columna{
+    display: flex;
+    flex-direction: column;
 }
