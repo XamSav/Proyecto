@@ -5,23 +5,33 @@ body{
     display: flex;
     flex-direction: row;
     color: white;
+    padding-top: 50px;
 }
 article{
     display: flex;
     flex-direction: column;
     width: 50%;
 }
+a{
+    margin-top: 40px;
+    margin-left: 50px;
+}
 input{
-    background-color: rgb(152,68,244);
     border: 2px solid black;
     color: white;
+    width: 200px;
+    height: 50px;
 }
 section{
     margin-top: 10%;
-    margin-right: 20%;
-    height: 100px;
+    height: 150px;
     width: 100%;
-    background-color: rgb(152,68,244);
+    border-radius: 40px; 
+    text-align: center;   
+}
+section p{
+    padding-right: 20px;
+    padding-left: 20px;
 }
 .right{
     float: right;
@@ -31,6 +41,8 @@ section{
 }
 img{
     background-color: white ;
+    height: 350px;
+    width: 350px;
 }
 textarea{
     border: 5px solid black;
