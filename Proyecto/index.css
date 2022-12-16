@@ -42,3 +42,6 @@
     display: flex;
     flex-direction: column;
 }
+.no-border{
+    border: 0px;
+}
