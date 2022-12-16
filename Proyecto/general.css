@@ -1,0 +1,19 @@
+.morado{
+    background-color: rgb(152,68,244);
+}
+.rojo{
+    background-color: rgba(243,73,38,255);
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.mitad{
+    width: 50%;
+}
+.columna{
+    display: flex;
+    flex-direction: column;
+}

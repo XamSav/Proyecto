@@ -1,0 +1,22 @@
+.tarjeta{
+    background-color: white;
+    width: 25%;
+}
+.tarjeta img{
+    max-width: 200px;
+}
+.tarjeta p{
+    color: rgba(243,73,38,255);
+}
+#Tarjetas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+.bloque{
+    margin-top: 10%;
+    margin-right: 20%;
+    height: 100px;
+    width: 100%;
+}
