@@ -44,6 +44,10 @@ img{
     height: 350px;
     width: 350px;
 }
+.caja{
+    width:457px;
+    height:450;
+}
 textarea{
     border: 5px solid black;
 }
